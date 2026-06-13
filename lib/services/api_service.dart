@@ -3,7 +3,7 @@ import '../models/service.dart';
 import '../models/projects.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://lebedevdev.ru/api';
+  static const String baseUrl = 'https://lebedevdev.ru/api';
 
   final Dio dio = Dio(
     BaseOptions(
